@@ -101,7 +101,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               href="#pricing"
               className="w-full sm:w-auto bg-white hover:bg-emerald-50/50 text-gray-800 border border-[#E7E1D3] font-bold px-6 py-4 rounded-xl text-base transition-colors flex items-center justify-center gap-2"
             >
-              <span>Plans Dekhein (₹299 Se)</span>
+              <span>Plans Dekhein (₹99 Se)</span>
             </a>
           </div>
 
@@ -455,7 +455,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               </div>
               <div className="mb-4">
                 <span className="font-heading text-4xl font-extrabold text-gray-900">
-                  ₹{plans.starter?.price ?? 299}
+                  ₹{plans.starter?.price ?? 99}
                 </span>
                 <span className="text-xs text-gray-500 ml-1">/ 100 generations</span>
               </div>
@@ -489,7 +489,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               onClick={() => plans.starter && onSelectPlan(plans.starter)}
               className="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold py-3 rounded-xl text-sm shadow-md shadow-emerald-800/25 transition-all"
             >
-              Starter Plan Lein (₹{plans.starter?.price ?? 299})
+              Starter Plan Lein (₹{plans.starter?.price ?? 99})
             </button>
           </div>
 
@@ -504,7 +504,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               </div>
               <div className="mb-4">
                 <span className="font-heading text-4xl font-extrabold text-gray-900">
-                  ₹{plans.pro?.price ?? 599}
+                  ₹{plans.pro?.price ?? 199}
                 </span>
                 <span className="text-xs text-gray-500 ml-1">/ 300 generations</span>
               </div>
@@ -538,7 +538,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               onClick={() => plans.pro && onSelectPlan(plans.pro)}
               className="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-extrabold py-3 rounded-xl text-sm transition-all"
             >
-              Pro Plan Lein (₹{plans.pro?.price ?? 599})
+              Pro Plan Lein (₹{plans.pro?.price ?? 199})
             </button>
           </div>
         </div>

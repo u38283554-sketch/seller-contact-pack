@@ -269,7 +269,7 @@ export const GeneratorApp: React.FC<GeneratorAppProps> = ({
             Plan Expire Ho Gaya Ya Limit Khatam!
           </h3>
           <p className="text-xs text-red-800 max-w-md mx-auto">
-            Content banana jari rakhne ke liye kripya Starter (₹299) ya Pro (₹599) plan renew karein. Aapki bachi hui validity automatically add ho jayegi.
+            Content banana jari rakhne ke liye kripya Starter (₹99) ya Pro (₹199) plan renew karein. Aapki bachi hui validity automatically add ho jayegi.
           </p>
           <button
             onClick={onOpenPricing}

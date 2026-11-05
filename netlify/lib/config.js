@@ -30,7 +30,7 @@ export const PLANS = {
   starter: {
     id: "starter",
     name: "Starter Plan",
-    price: 299, // ₹299 (Change here if testing e.g. 1)
+    price: 99, // ₹99
     days: 30,
     limit: 100, // 100 generations
     badge: "Most Popular",
@@ -47,7 +47,7 @@ export const PLANS = {
   pro: {
     id: "pro",
     name: "Pro Plan",
-    price: 599, // ₹599
+    price: 199, // ₹199
     days: 30,
     limit: 300, // 300 generations
     badge: "Best Value",

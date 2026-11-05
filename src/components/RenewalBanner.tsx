@@ -61,7 +61,7 @@ export const RenewalBanner: React.FC<RenewalBannerProps> = ({ account, onRenew }
             onClick={onRenew}
             className="inline-flex items-center gap-1.5 bg-amber-400 text-gray-950 hover:bg-amber-300 px-3.5 py-1.5 rounded-lg text-xs font-bold shadow-sm transition-transform active:scale-95 ml-auto"
           >
-            <span>Plan Dekhein (₹299 Se Shuru)</span>
+            <span>Plan Dekhein (₹99 Se Shuru)</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>

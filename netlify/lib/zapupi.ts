@@ -66,7 +66,13 @@ export async function createZapUpiOrder(params: {
 
   const data: ZapCreateOrderResponse = await response.json();
   if (data.status !== 'success' || !data.payment_url) {
-    throw new Error(data.message || 'ZapUPI order creation failed');
+    const rawMsg = data.message || 'ZapUPI order creation failed';
+    if (/insufficient.*topup|insufficient.*balance|topup/i.test(rawMsg)) {
+      throw new Error(
+        'Aapke ZapUPI dashboard mein "Wallet/Topup Balance" 0 hai. Kripya apne ZapUPI dashboard (zapupi.com) mein login karein aur "Wallet / Recharge" mein chhota topup (jaise ₹50 ya ₹100) karein taaki customers ke payments process ho sakein.'
+      );
+    }
+    throw new Error(rawMsg);
   }
 
   return data.payment_url;
