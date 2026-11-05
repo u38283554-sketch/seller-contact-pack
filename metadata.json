@@ -1,0 +1,6 @@
+{
+  "name": "Seller Content Pack",
+  "description": "Ready-to-use e-commerce selling content for Indian online sellers on Meesho, Amazon, Flipkart, Instagram, and WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
